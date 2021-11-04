@@ -1,0 +1,223 @@
+
+body{
+    padding: 0;
+    margin: 0 !important;
+    font-family: "Lato", sans-serif;
+}
+
+.mobile_frame{
+    background-color: white;
+    width: 1440px;
+    height: 3800px;
+    position: relative;
+}
+
+.top_nav{
+    position: absolute;
+    height: 80px;
+    width: 99vw;
+    left: 0px;
+    top: 0px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(234, 225, 225, 0.25);
+    display: flex;
+}
+
+
+.top_nav .wwa{
+    position: absolute;
+    width: 99px;
+    height: 23px;
+    left: 419px;
+    top: 28px;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 23px;
+    color: #455a64;
+}
+
+.top_nav .wwd{
+    position: absolute;
+    width: 99px;
+    height: 23px;
+    left: 617px;
+    top: 28px;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 23px;
+    color: #455a64;
+}
+
+.top_nav .e{
+    position: absolute;
+    width: 57px;
+    height: 23px;
+    left: 816px;
+    top: 28px;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 23px;
+    color: #455a64;
+}
+
+.top_nav .b{
+    position: absolute;
+    width: 38px;
+    height: 23px;
+    left: 937px;
+    top: 28px;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 23px;
+    color: #455a64;
+}
+
+.top_nav .button1{
+    position: absolute;
+    width: 170px;
+    height: 53px;
+    left: 1032px;
+    top: 14px;
+
+    background: #fff;
+    border: 1px solid #ff2e2e;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.top_nav .button1 h5{
+    left: 1048px;
+    top: 29px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: #ff2e2e;
+}
+
+.top_nav .button2{
+    position: absolute;
+    width: 170px;
+    height: 53px;
+    left: 1232px;
+    top: 14px;
+
+    background: #ff2e2e;
+    border-radius: 3px;
+}
+
+.top_nav .button2 h5{
+   
+    left: 1248px;
+    top: 29px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+}
+
+.top_div{
+    position: absolute;
+    width: 1305px;
+    height: 466px;
+    left: 81px;
+    top: 132px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(216, 211, 211, 0.4);
+}
+.talent{
+    position: absolute;
+    width: 443px;
+    height: 115px;
+    left: 50px;
+    top: 30px;
+    font-family: IBM Plex Sans;
+    margin-top: 0;
+    /* font-style: normal; */
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 62px;
+    padding-bottom: 350px; 
+    color: #E90011;
+} 
+.talent p{
+    position: absolute;
+    width: 490px;
+    height: 95px;
+    left: 0px;
+    bottom: 170px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 23px;
+    color: #455A64;
+}
+.talent .partner{
+    position: absolute;
+    width: 180px;
+    height: 53px;
+    left: 0px;
+    top: 310px;
+
+    background: #FFFFFF;
+    border: 1px solid #FF2E2E;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.talent .partner h5{
+    position: absolute;
+    width: 160px;
+    height: 23px;
+    left: 5px;
+    bottom: -15px;
+    justify-content: center;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #FF2E2E;
+
+}
+
+.talent .native{
+    position: absolute;
+    width: 180px;
+    height: 53px;
+    left: 250px;
+    top: 310px;
+
+    background: #FF2E2E;
+    border-radius: 3px;
+}
+.talent .native h5{
+   position: absolute;
+    width: 170px;
+    height: 23px;
+    left: 5px;
+    bottom: -15px;
+    justify-content: center;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+color: #FFFFFF;
+
+}
+.top_div .img{
+
+position: absolute;
+left: 64.42%;
+right: -8.09%;
+top: 7.71%;
+bottom: -4.1%;
+
+background: url(.png);
+}

@@ -1,0 +1,147 @@
+.body{
+    padding: 0%;
+    margin: 0 !important;
+    font-family: 'Lato', sans-serif;
+}
+
+.kontainer{
+    position: relative;
+    width: 1440px;
+    height: 3800px;
+    background: #FFFFFF;
+
+}
+
+.tp_nav{
+    position: absolute; 
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(234, 225, 225, 0.25);
+    justify-content: space-between;
+}
+
+.nav_text{
+    display: flex;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    color: #455A64;
+    padding-left: 200px;
+    text-decoration: none;
+
+}
+.nav_text p {
+    display: flex;
+    padding: 20px;
+    
+}
+
+.b1{
+    color: red;
+    position: absolute; 
+    width: 170px;
+    height: 53px;
+    left: 1032px;
+    top: 14px;
+    background: white;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.b2{
+    color: white;
+    position: absolute; 
+    width: 170px;
+    height: 53px;
+    left: 1232px;
+    top: 14px;
+    background: #FF2E2E;
+    border-radius: 3px;
+    }
+
+.b3{
+    position: absolute; 
+    width: 170px;
+    height: 53px;
+    left: 138px;
+    top: 447px;
+    background: #FFFFFF;
+    border: 1px solid #FF2E2E;
+    /* box-sizing: border-box; */
+    border-radius: 3px;
+    }
+
+.b4{
+    color: white;
+    position: absolute; 
+    width: 170px;
+    height: 53px;
+    left: 338px;
+    top: 447px;
+    background: #FF2E2E;
+    border-radius: 3px;
+}
+
+    .first_frame{
+    position: absolute; 
+    width: 1305px;
+    height: 466px;
+    left: 31px;
+    top: 130px;
+    margin-top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(216, 211, 211, 0.4);
+    
+}
+    
+    .text_1{
+    position: absolute; 
+    width: 443px;
+    height: 124px;
+    left: 141px;
+    top: 168px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    color: #E90011;
+    padding: 1px;
+    }
+
+    .text_2{
+    position: absolute; 
+    width: 423px;
+    height: 87px;
+    left: 138px;
+    top: 312px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #455A64;
+    }
+
+    .text_3{
+    position: absolute;
+    width: 401px;
+    height: 96px;
+    left: 145px;
+    top: 698px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 47px;
+    color: #960C0C;
+
+    }
+
+    .text_4{
+
+    }
+
+   
