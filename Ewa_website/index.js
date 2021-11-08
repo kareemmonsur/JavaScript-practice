@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let registerObject = {}
     let repository = [
-        {first_name: "ujay", last_name: "eroms", phone_number: "07058029688", password:"123456789" },
+        {first_name: "ujay", last_name: "eroms", phone_number: "07058029688", password:"123" },
         {first_name: "jay", last_name: "jay", phone_number: "08035804896", password:"12345623" }
     ]
 
@@ -20,8 +20,10 @@ document.addEventListener("DOMContentLoaded", function() {
         if(Object.keys(registerObject).length === 4){
             let {first_name, password} = registerObject
             if (repository.findIndex(user => user.first_name === first_name) !==-1){
-                if(repository.find(user => user.first_name).password ===password){
+                if(repository.find(user => user.first_name).password === password){
+                    localStorage.setItem("userName", JSON.stringify(registerObject))
                     window.location.href = "home.html"
+
               }else {
                 alert('Please enter a correct password')
                 }
@@ -47,9 +49,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Array.from(inputFields).forEach((inputFields) =>
         inputFields.addEventListener('input',(e) => handleInputChange(e)))
 
-
-    // for (let i = 0; i < inputFields.length; i++){
-    //     inputFields[i].addEventListener('input',(e) => handleInputChange(e))
-    // }
-
 })
+
+function myFunction(){
+    let userDetails = JSON.parse(localStorage.getItem("userName"))
+    document.getElementById("Hey").innerHTML = "Hey " + userDetails.last_name
+}
+
+myFunction()
